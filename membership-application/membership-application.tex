@@ -1,0 +1,67 @@
+\documentclass[a4paper]{scrartcl}
+\usepackage[utf8]{inputenc} % this is needed for umlauts
+\usepackage[ngerman]{babel} % this is needed for umlauts
+\usepackage[T1]{fontenc}    % this is needed for correct output of umlauts in pdf
+\usepackage{booktabs}
+\usepackage{hyperref}   % links im text
+\usepackage{csquotes}
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\S\thesection}{1em}{}
+
+\newcommand\GruppenName{ML-KIT}
+
+\hypersetup {
+  pdfauthor   = {Johannes Reiß, Marvin Schweizer, Matthias Stu, Marvin Teichmann, Martin Thoma},
+  pdfkeywords = {Satzung der \GruppenName{} Hochschulgruppe},
+  pdftitle    = {Satzung der \GruppenName{} Hochschulgruppe}
+}
+
+
+\begin{document}
+\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+\clearpage
+\thispagestyle{empty}
+ \author{}
+\title{Antrag auf Mitgliedschaft in der Hochschulgruppe \enquote{\GruppenName{}}}
+\date{}%
+\maketitle
+
+\begin{Form}%[action={http://your-web-server.com/path/receiveform.cgi}]
+
+%\begin{tabular}{l}
+\begin{tabbing}
+xxxxxxxxxxxxxxxxxx: \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxx: \=\kill  % This is needed for the right tab width
+Vorname:            \> \TextField[name=prename,width=4cm,charsize=12pt, borderwidth=1]
+{\mbox{}}
+Nachname:           \> \TextField[name=surname,width=5cm,charsize=12pt]
+{\mbox{}}\\\\
+Straße, Hausnummer: \> \TextField[name=street,width=11.1cm,charsize=12pt]
+{\mbox{}}\\\\
+PLZ:                \> \TextField[name=postcode,width=4cm,charsize=12pt]
+{\mbox{}}
+Ort:                \> \TextField[name=place,width=5cm,charsize=12pt]
+{\mbox{}}\\\\
+Telefon:            \> \TextField[name=telephone,width=4cm,charsize=12pt]
+{\mbox{}}
+E-Mail:             \> \TextField[name=email,width=5cm,charsize=12pt]
+{\mbox{}}\\\\
+\CheckBox[width=2em]{Ich bin Student}\\\\
+\CheckBox[width=2em]{Ich bin Student am KIT}\\\\
+\end{tabbing}
+
+\noindent\textit{Hinweis:} Wenn sich der Studentenstatus ändert, erlischt die
+Mitgliedschaft. Es muss ein neuer Mitgliedsantrag gestellt werden.\\\\\\
+
+
+\noindent\begin{tabular}{ll}
+\makebox[2.5in]{\hrulefill} & \makebox[2.5in]{\hrulefill}\\
+Ort, Datum & Unterschrift\\
+\end{tabular}
+
+
+    % \Submit{Submit}\\
+%\end{tabular}
+\end{Form}
+\end{document}
