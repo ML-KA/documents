@@ -1,1 +1,1 @@
-# inoffizielle Vorlage für Mitgliedsbescheinigung Machine Learning Karlsruhe
+# Vorlage für Mitgliedsbescheinigungen
