@@ -1,0 +1,1 @@
+# Vorlage für Mitgliedsbescheinigungen
