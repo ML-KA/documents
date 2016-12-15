@@ -1,0 +1,38 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc} % this is needed for umlauts
+\usepackage[ngerman]{babel} % this is needed for umlauts
+\usepackage[T1]{fontenc}    % this is needed for correct output of umlauts in pdf
+\usepackage{parskip}
+\usepackage{csquotes}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+\fancyfoot[C]{Seite \thepage\ von \pageref{LastPage}}
+
+\cfoot{Seite \thepage\ von \pageref{LastPage}}
+\pagestyle{fancy}
+
+\title{Mitgliederliste HSG\\'Machine Learning Karlsruhe'}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document                                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+Liste der ordentlichen Mitglieder der Hochschulgruppe \enquote{Machine Learning
+Karlsruhe} im Wintersemester~2015/2016. Mit $\dagger$ markierte Mitglieder
+sind Studenten, aber nicht am KIT. Mit $\ast$ markierte Mitglieder sind keine
+Studenten. Alle nicht markierten Mitglieder sind Studenten des KIT.
+
+\begin{enumerate}
+    \item TODO: Vollständige Mitgliederliste ist nicht öffentlich
+    \item Schweizer, Marvin
+    \item Teichmann, Marvin*
+    \item Thoma, Martin
+\end{enumerate}
+
+\end{document}
