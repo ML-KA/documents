@@ -6,6 +6,9 @@ Der Vorstand von ML-KA hat folgende Aufgaben:
 4. Einmal im Jahr ist die [Rückmeldung der Hochschulgruppe beim ASTA](https://www.asta.kit.edu/de/engagier-dich/hochschulgruppen/anerkennung-rueckmeldung) fällig.
 5. Weitergabe von inoffiziellen Informationen, wie Ansprechpartner und
    Kontaktdaten.
+6. Der Vorstand muss bei der Rückmeldung einen Bericht über die Finanzlage
+   der HSG abgeben. Darin sind alle Einnahmen, alle Ausgaben sowie alle zu
+   diesem Zeitpunkt verfügbaren Gelder aufzuführen.
 
 
 Wird ein neuer Vorstand gewählt, so ist folgendes zu tun:
